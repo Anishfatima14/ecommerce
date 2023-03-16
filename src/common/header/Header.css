@@ -1,0 +1,150 @@
+
+.head{
+    background-color:white;
+    padding: 10px 0;
+    
+}
+.head i{
+    margin-right:10px;
+
+}
+
+.head h1{
+  color: chocolate;
+}
+
+.head label:hover{
+  color: #e94560
+  
+}
+
+  .search-box{
+    width: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    height: 30px;
+    position: relative;
+  }
+  
+  .search-box i{
+    width: 4%;
+    text-align: center;
+    font-size: 20px;
+    opacity: 0.5;
+    padding: 15px 20px;
+    font-size: 17px;
+  }
+  
+  .search-box input{
+    width: 100%;
+    padding: 10px;
+  }
+  
+  ::placeholder{
+    font-size: 15px;
+  }
+  
+  .cart{
+    position: relative;
+  }
+  
+  .header .cart span{
+    position:absolute;
+    top : -10px;
+    right:0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #e94560;
+    font-size: 12px;
+    color: #fff;
+  }
+  
+  .header .f_flex{
+   
+    justify-content: end;
+  }
+  
+  
+  
+  header{
+    background-color: gray;
+    height: 8vh;
+    box-shadow:  -1px 15px 17px -8px rgba(0, 0, 0, 0.1);
+  }
+  
+  header ul{
+    line-height: 8vh;
+  }
+  header ul li{
+    margin-left: 30px;
+  
+  }
+  header ul li a{
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  header ul li a:hover{
+    color: #e94560;
+  }
+  
+  .open{
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    header ul{
+        padding-top: 30px;
+    }
+    .nav-links-MobileMenu{
+        position: absolute;
+        display: block;
+        list-style-type: none;
+        left: 0;
+        top: 0;
+        transition: 0.5s;
+        width: 60%;
+        height: 100vh;
+        background-color: #fff;
+        z-index: 888;
+        box-shadow: rgba(50, 50, 93, 0.23) 0 50px 100px -20px, rgba(0, 0, 0, 0.3) 0 30px 60px -30px;
+    }
+    header ul li{
+        width: 100%;
+        transition: all 0.5s ease-in-out;
+        text-transform: uppercase;
+        line-height: 70px;
+    }
+    header .link{
+        display: none;
+
+    }
+    .close,
+    .open{
+        position: absolute;
+        top: 35px;
+        right: 20px;
+        color: #ff014f;
+        display: block;
+        font-size: 25px;
+        z-index: 999;
+    }
+    .open{
+      top: 14%;
+    }
+    .close{
+        right:45%;
+
+    }
+    .close .home-btn{
+        background: linear-gradient(145deg, #e2e8ec,#ffffff);
+        color: #ff014f;
+        border-radius: 50%;
+        padding: 0;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+
+    }
+  }

@@ -1,0 +1,11 @@
+.footer{
+    width: 100%;
+    background-color:chocolate;
+    display: flex;
+    color: white;
+    font-size: 19px;
+    font-weight: bold;
+}
+.footer .center{
+    position: center;
+}
